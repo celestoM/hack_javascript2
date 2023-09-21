@@ -22,6 +22,9 @@ let bar = {
     alias:"Super Alias"
 }
 let result;
+ result = { ...foo, ...bar };
+
+console.log(result);
 
 
 //export result

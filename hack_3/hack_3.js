@@ -8,7 +8,13 @@
 */
 let arr = [{a:1},{b:2},{c:3},{d:4},{e:5}];
 let result = [];
- 
+let i=0;
+len=arr.length;
+while (i<len){
+    result.push(...Object.values(arr[i]));
+    i+=2;
+} 
+console.log(result);
  
 //export result
 module.exports = result; 

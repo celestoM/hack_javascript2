@@ -12,6 +12,8 @@ let result = {
     name:"foo",
     role:"admin"
 };
+delete result.role;
+console.log(result);
 
  
 //export result

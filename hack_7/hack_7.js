@@ -11,7 +11,8 @@ let foo = {
     skills:["javascript", "html", "css", "python", "flask", "react", "redux"]
 };
 let result;
-
+result=foo.skills;
+console.log(result);
 
 //export result
 module.exports = result; 

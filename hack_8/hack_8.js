@@ -13,6 +13,10 @@ let foo = {
     role:"admin"
 };
 let result = [];
+for (let i in foo){
+    result.push([i,foo[i]]);
+}
+console.log(result);
 
 
 //export result
